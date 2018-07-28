@@ -1,0 +1,139 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+.logo {
+	background-color: gray;
+	min-height: 50px;
+	min-width: 50px;
+	border-radius: 50%;
+	float: left;
+}
+.nav {
+	float: right;
+	width: 70%;
+	margin-right: 10px;
+}
+.nav1 {
+	background-color: gray;
+    min-height: 15px;
+    min-width: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin: 25px 15px;
+}
+.bannar_right1 {
+	border: 1px solid black;
+    margin-right: 20px;
+    min-height: 25px;
+    margin-top: 32px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: #BCBDBF;
+    margin-bottom: 15px;
+}
+.single_s2 {
+    /* margin-right: 30px; */
+    /* margin-bottom: 10px; */
+    margin: 15px -6px;
+    width: 86%;
+}
+.box ul li {
+    border: 1px solid black;
+    float: left;
+    min-height: 20px;
+    width: -35%;
+    width: 17%;
+    margin-right: 19px;
+    margin-left: -25px;
+    background-color: #BEBFC3;
+    border: transparent;
+    border-radius: 6px;
+}
+
+ }
+ 
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+.logo {
+	background-color: gray;
+	min-height: 50px;
+	min-width: 50px;
+	border-radius: 50%;
+	float: left;
+}
+.nav {
+	float: right;
+	width: 68%;
+}
+.nav1 {
+	background-color: gray;
+    min-height: 15px;
+    min-width: 60px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin: 70% 82%;
+}
+
+
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {  
+.logo {
+	background-color: gray;
+	min-height: 50px;
+	min-width: 50px;
+	border-radius: 50%;
+	float: left;
+	margin: 10px;
+}
+.nav {
+	float: right;
+	/*width: 100%;*/
+}
+.nav1 {
+	background-color: gray;
+    min-height: 15px;
+    min-width: 60PX;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin: 73% 15%;
+}
+
+.bannar_right1 {
+    border: 1px solid black;
+    margin-right: 86px;
+    min-height: 30px;
+    margin-top: 32px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: #BCBDBF;
+    margin-bottom: 20px;
+}
+
+.box ul li {
+	border: 1px solid black;
+    float: left;
+    min-height: 20px;
+    width: 15%;
+    margin-right: 3px;
+    margin-left: 0px;
+    background-color: #BEBFC3;
+    border: transparent;
+    border-radius: 6px;
+}
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+ }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  
+
+
+}
